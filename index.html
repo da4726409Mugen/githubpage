@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pagina</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <header class="header" id="inicio">
+
+        <div class="menu container">
+            <a href="#incio" class="logo">URBAN WEAR</a>
+            <input type="checkbox" id="menu">
+            <label for="menu">
+                <img src="img/menu.png" alt="menu" class="menu-icono">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#incio">Inicio</a></li>
+                    <li><a href="#ofertas">ofertas</a></li>
+                    <li><a href="#lista-1">Productos</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <img src="img/car.svg" id="img-carrito" alt="carrito">
+                        <div id="carrito">
+                            <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th>Imagen</th>
+                                        <th>Nombre</th>
+                                        <th>Precio</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                            </table>
+                            <a href="#" id="vaciar-carrito"
+                            class="btn-2">Vaciar Carrito</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="header-content container">
+            <div class="header-img">
+                <img src="img/right.png" alt="Vestido de promoción de temporada">
+            </div>
+            <div class="header-txt">
+                <h1>Ofertas especiales</h1>
+                <p>Estrena las mejores prendas con descuentos de temporadaendas</p>
+                <a href="#" class="btn-1">Comprar Ahora</a>
+                
+            </div>
+        </div>
+    </header>
+
+    <section class="ofert container" id="ofertas">
+        <div class="ofert-1">
+            <div class="ofert-img">
+                <img src="img/f1.png" alt="correa">
+            </div>
+            <div class="ofert-txt">
+                <h3>Cinturón Under Armour</h3>
+                <a href="#" class="btn-2">Ver Detalle</a>
+            </div>
+        </div>
+        <div class="ofert-1">
+            <div class="ofert-img">
+                <img src="img/f2.png" alt="zapato">
+            </div>
+            <div class="ofert-txt">
+                <h3>Zapatillas deportivas Santi blancas</h3>
+                <a href="#" class="btn-2">Ver Detalle</a>
+            </div>
+        </div>
+        <div class="ofert-1">
+            <div class="ofert-img">
+                <img src="img/f3.png" alt="bolso">
+            </div>
+            <div class="ofert-txt">
+                <h3>Bolso ETRONIK</h3>
+                <a href="#" class="btn-2">Ver Detalle</a>
+            </div>
+        </div>
+    </section>
+    <main class="products container" id="lista-1">
+
+        <h2>Nuestros Productos Destacados</h2>
+        <div class="product-content">
+
+            <div class="product">
+                <img src="img/1.png" alt="sueter">
+                <div class="product-txt">
+                    <h3>Camisa de vestir Nautica</h3>
+                    <p>Elegancia clásica para la oficina o eventos formales.</p>
+                    <p class="precio">$50 USD</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="1">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="img/2.png" alt="sueter">
+                <div class="product-txt">
+                    <h3>Chaqueta táctica Softshell</h3>
+                    <p>Resistente al viento y al agua, ideal para exteriores.</p>
+                    <p class="precio">$50 USD</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="2">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="img/3.png" alt="sueter">
+                <div class="product-txt">
+                    <h3>Chaqueta de Esquí 3 en 1 para Mujer</h3>
+                    <p>Diseño versátil para frío extremo o clima templado.</p>
+                    <p class="precio">$60 USD</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="3">Agregar al carrito</a>
+                </div>
+           
+            </div>
+                <div class="product">
+                <img src="img/4.png" alt="sueter">
+                <div class="product-txt">
+                    <h3>Camisa de Satén ZEROYAA</h3>
+                    <p>Acabado lujoso y corte slim fit. Perfecta para la noche.</p>
+                    <p class="precio">$20 USD</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="4">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="img/5.png" alt="sueter">
+                <div class="product-txt">
+                    <h3>Camisa Negra ALMOND & GENTLE</h3>
+                    <p>Estilo minimalista y moderno, ideal para un look casual elegante.</p>
+                    <p class="precio">US$ 25</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="5">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="img/6.png" alt="sueter">
+                <div class="product-txt">
+                    <h3>Abrigo largo con capucha</h3>
+                    <p>Máximo confort y calidez con un diseño largo y elegante.</p>
+                    <p class="precio">$40 USD</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="6">Agregar al carrito</a>
+                </div>
+            </div>
+                
+        </div>
+    </main>
+
+    
+    <section class="icons container">
+        <div class="icon-1">
+            <div class="icon-img">
+                <img src="img/i1.svg" alt="">
+            </div>
+            <div class="icon-txt">
+                <h3>Colección Esencial</h3>
+                <p>
+                    La base de cualquier guardarropa elegante. Prendas atemporales de máxima calidad.  
+                </p>
+            </div>
+        </div>
+        <div class="icon-1">
+            <div class="icon-img">
+                <img src="img/i2.svg" alt="">
+            </div>
+            <div class="icon-txt">
+                <h3>Pre-Lanzamiento VIP</h3>
+                <p>
+                    Sé el primero en ver y comprar nuestras próximas colecciones antes que nadie.  
+                </p>
+            </div>
+        </div>
+        <div class="icon-1">
+            <div class="icon-img">
+                <img src="img/i3.svg" alt="">
+            </div>
+            <div class="icon-txt">
+                <h3>Garantía de Durabilida</h3>
+                <p>
+                    Creemos en la calidad que perdura. Nuestros productos están hechos para resistir el tiempo.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="blog container" id="blog">
+
+        <div class="blog-1">
+            <img src="img/b1.jpg" alt="">
+            <h3>Guía de Estilo Clásico</h3>
+            <p>
+                Aprende a combinar prendas básicas para un look atemporal que nunca pasa de moda. ¡Domina los esenciales del armario!
+            </p>
+        </div>
+        <div class="blog-1">
+            <img src="img/b2.jpg" alt="">
+            <h3>Tejidos de la Temporada</h3>
+            <p>
+                Descubre los materiales y texturas que dominarán este año, garantizando comodidad, frescura y la mejor caída.
+            </p>
+        </div>
+        <div class="blog-1">
+            <img src="img/b3.jpg" alt="">
+            <h3>Accesorios que Transforman</h3>
+            <p>
+                Un vistazo a los accesorios clave de la semana que elevarán cualquier atuendo, desde el casual hasta el formal.
+            </p>
+        </div>
+    </section>
+
+    <footer class="footer" id="contacto">
+        <div class="footer-content container">
+            <div class="link">
+                <h3>Navegación</h3>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#productos">Comprar</a></li>
+                    <li><a href="#ofertas">Ofertas</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                </ul>
+            </div>
+            <div class="link">
+                <h3>Ayuda</h3>
+                <ul>
+                    <li><a href="#">Preguntas Frecuentes</a></li>
+                    <li><a href="#">Política de Envíos</a></li>
+                    <li><a href="#">Devoluciones</a></li>
+                    <li><a href="#">Términos y Condiciones</a></li>
+                </ul>
+            </div>
+            <div class="link">
+                <h3>Compañía</h3>
+                <ul>
+                    <li><a href="#">Nuestra Historia</a></li>
+                    <li><a href="#">Trabaja con Nosotros</a></li>
+                    <li><a href="#">Prensa</a></li>
+                    <li><a href="#">Sostenibilidad</a></li>
+                </ul>
+            </div>
+            <div class="link">
+                <h3>Síguenos</h3>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Pinterest</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    
+    
+    <script src="main.js"></script>
+</body>
+</html>
